@@ -36,6 +36,6 @@ The easiest way to host this bot, Deploy on Heroku, Change the app country to Us
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ### ɴᴇᴛᴡᴏʀᴋ & sᴜᴘᴘᴏʀᴛ 🎑
-<a href="https://t.me/TitanNetwrk"><img src="https://img.shields.io/badge/-ɴᴇᴛᴡᴏʀᴋ%20Group-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/TitanNetwrk"><img src="https://img.shields.io/badge/-ɴᴇᴛᴡᴏʀᴋ%20-black.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/Musical_Beatsz"><img src="https://img.shields.io/badge/%20sᴜᴘᴘᴏʀᴛ-blue.svg?style=for-the-badge&logo=Telegram"></a>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
