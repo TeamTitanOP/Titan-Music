@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import add_gban_user, remove_gban_user
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.extraction import extract_user
+from TitanXMusic import app
+from TitanXMusic.misc import SUDOERS
+from TitanXMusic.utils.database import add_gban_user, remove_gban_user
+from TitanXMusic.utils.decorators.language import language
+from TitanXMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
