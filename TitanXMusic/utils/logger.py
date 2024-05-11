@@ -1,14 +1,14 @@
 from pyrogram.enums import ParseMode
 
-from AnonXMusic import app
-from AnonXMusic.utils.database import is_on_off
+from TitanXMusic import app
+from TitanXMusic.utils.database import is_on_off
 from config import LOGGER_ID
 
 
 async def play_logs(message, streamtype):
     if await is_on_off(2):
         logger_text = f"""
-<b>{app.mention} ᴘʟᴀʏ ʟᴏɢ</b>
+<b>{app.mention} ᴛᴏᴍ x ᴊᴇʀʀʏ ᴘʟᴀʏ ʟᴏɢ</b>
 
 <b>ᴄʜᴀᴛ ɪᴅ :</b> <code>{message.chat.id}</code>
 <b>ᴄʜᴀᴛ ɴᴀᴍᴇ :</b> {message.chat.title}
@@ -19,7 +19,8 @@ async def play_logs(message, streamtype):
 <b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}
 
 <b>ǫᴜᴇʀʏ :</b> {message.text.split(None, 1)[1]}
-<b>sᴛʀᴇᴀᴍᴛʏᴘᴇ :</b> {streamtype}"""
+<b>sᴛʀᴇᴀᴍᴛʏᴘᴇ :</b> {streamtype}
+<b>ɪᴛs ᴍʀ ᴘᴇʀғᴇᴄᴛ :</b> [◤ᴍʀ★ᴘᴇʀꜰᴇᴄᴛ◢](t.me/MrPerfectXd)"""
         if message.chat.id != LOGGER_ID:
             try:
                 await app.send_message(
