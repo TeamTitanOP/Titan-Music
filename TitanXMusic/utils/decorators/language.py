@@ -1,9 +1,9 @@
 from strings import get_string
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
+from TitanXMusic import app
+from TitanXMusic.misc import SUDOERS
 from config import SUPPORT_CHAT
-from AnonXMusic.utils.database import get_lang, is_maintenance
+from TitanXMusic.utils.database import get_lang, is_maintenance
 
 
 def language(mystic):
