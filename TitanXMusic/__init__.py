@@ -1,8 +1,8 @@
-from AnonXMusic.core.bot import Anony
-from AnonXMusic.core.dir import dirr
-from AnonXMusic.core.git import git
-from AnonXMusic.core.userbot import Userbot
-from AnonXMusic.misc import dbb, heroku
+from TitanXMusic.core.bot import Titany
+from TitanXMusic.core.dir import dirr
+from TitanXMusic.core.git import git
+from TitanXMusic.core.userbot import Userbot
+from TitanXMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Anony()
+app = Titany()
 userbot = Userbot()
 
 
