@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from TitanXMusic import LOGGER, app, userbot
-from TitanXMusic.core.call import Anony
+from TitanXMusic.core.call import Titany
 from TitanXMusic.misc import sudo
 from TitanXMusic.plugins import ALL_MODULES
 from TitanXMusic.utils.database import get_banned_users, get_gbanned
@@ -38,7 +38,7 @@ async def init():
         importlib.import_module("TitanXMusic.plugins" + all_module)
     LOGGER("TitanXMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await Anony.start()
+    await Titany.start()
     try:
         await Titany.stream_call("https://telegra.ph/file/9be443cf6de446d71da7d.mp4")
     except NoActiveGroupCall:
