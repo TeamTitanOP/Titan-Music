@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from AnonXMusic import app
+from TitanXMusic import app
 
 
 def start_panel(_):
@@ -31,7 +31,9 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
+            InlineKeyboardButton(
+                    text="🌹 ᴛɪᴛᴀɴ ɴᴇᴛᴡᴏʀᴋ 🌹", url="https://t.me/TitanNetwrk"
+                )
         ],
     ]
     return buttons
