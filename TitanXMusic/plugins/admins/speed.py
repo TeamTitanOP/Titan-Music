@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils import AdminRightsCheck
-from AnonXMusic.utils.database import is_active_chat, is_nonadmin_chat
-from AnonXMusic.utils.decorators.language import languageCB
-from AnonXMusic.utils.inline import close_markup, speed_markup
+from TitanXMusic import app
+from TitanXMusic.core.call import Titany 
+from TitanXMusic.misc import SUDOERS, db
+from TitanXMusic.utils import AdminRightsCheck
+from TitanXMusic.utils.database import is_active_chat, is_nonadmin_chat
+from TitanXMusic.utils.decorators.language import languageCB
+from TitanXMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await Anony.speedup_stream(
+        await Titany.speedup_stream(
             chat_id,
             file_path,
             speed,
