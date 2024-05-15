@@ -5,6 +5,7 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from TitanXMusic import app
+from TitanXMusic.utils import AdminRightsCheck
 from config import adminlist 
 
 
@@ -13,8 +14,9 @@ SPAM_CHATS = []
 
 @app.on_message(
     filters.command(["all", "mention", "mentionall"], prefixes=["/", "@", ".", "#"])
-    & admin_filter
+    
 )
+@AdminRightsCheck
 async def tag_all_users(_, message):
 
     replied = message.reply_to_message
