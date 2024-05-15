@@ -85,7 +85,6 @@ async def tag_all_users(_, message):
         ],
         prefixes=["/", "@", "#"],
     )
-    & admin_filter
 )
 async def cancelcmd(_, message):
     chat_id = message.chat.id
