@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from TitanXMusic import app
-from TitanXMusic import adminlist 
+from config import adminlist 
 
 
 SPAM_CHATS = []
